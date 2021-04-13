@@ -17,6 +17,7 @@ import skimage.transform
 import torch
 from torch.utils.data.dataset import Dataset
 import albumentations as A
+import PIL.Image
 
 
 class UnlabeledDataset(Dataset):
